@@ -57,10 +57,8 @@
     release-after-ms = <900>;
     quick-release;
 };
-
 &lt { quick_tap_ms = <200>; };
 
-// when I get the trackball working, holding down N (or enter??) should mo scrolling mode!
 / {
     combos {
         compatible = "zmk,combos";
@@ -137,7 +135,7 @@
                 quick-tap-ms = <200>;
                 bindings = <&kp>, <&kp>;
         };
-        TAPDANCE(bkfwd, tapping-term-ms = <300>; bindings = <&kp LG(LEFT)>, <&kp LG(RIGHT)>;)
+        TAPDANCE(bkfwd, "tapping-term-ms = <300>; bindings = <&kp LG(LEFT)>, <&kp LG(RIGHT)>;")
         TAPDANCE(td1, tapping-term-ms = <300>; bindings = <&sk RGUI>, <&sk RALT>, <&sk RCTRL>;)
         TAPDANCE(td2, tapping-term-ms = <300>; bindings = <&sk RALT>, <&sk RGUI>, <&sk RCTRL>;)
         TAPDANCE(shcaps, tapping-term-ms = <300>; bindings = <&sk LSHIFT>, <&caps_word>;)
