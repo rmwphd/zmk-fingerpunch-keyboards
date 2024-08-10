@@ -121,7 +121,6 @@
     behaviors {
         #define TAPDANCE(name,...) \
             name: name { \
-            label = ZMK_MACRO_STRINGIFY(ZM_ ## name); \
             compatible = "zmk,behavior-tap-dance"; \
             #binding-cells = <0>; \
             __VA_ARGS__ \
@@ -135,7 +134,7 @@
                 quick-tap-ms = <200>;
                 bindings = <&kp>, <&kp>;
         };
-        TAPDANCE(bkfwd, "tapping-term-ms = <300>; bindings = <&kp LG(LEFT)>, <&kp LG(RIGHT)>;")
+        TAPDANCE(bkfwd, tapping-term-ms = <300>; bindings = <&kp LG(LEFT)>, <&kp LG(RIGHT)>;)
         TAPDANCE(td1, tapping-term-ms = <300>; bindings = <&sk RGUI>, <&sk RALT>, <&sk RCTRL>;)
         TAPDANCE(td2, tapping-term-ms = <300>; bindings = <&sk RALT>, <&sk RGUI>, <&sk RCTRL>;)
         TAPDANCE(shcaps, tapping-term-ms = <300>; bindings = <&sk LSHIFT>, <&caps_word>;)
