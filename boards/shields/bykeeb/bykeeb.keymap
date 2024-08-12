@@ -13,15 +13,13 @@
  #include <behaviors/mouse_keys.dtsi>
  
  #define QWERTY_L 0
-#define MINIMAK4_L 1
-#define ISRT_L 2
-#define NUMPAD_L 3
-#define EDIT_L 4
-#define FSYM_L 5
-#define JSYM_L 6
-#define MEDIA_L 7
-#define ADJUST_L 8
-#define LAYERLEADER_L 9
+#define NUMPAD_L 1
+#define EDIT_L 2
+#define FSYM_L 3
+#define JSYM_L 4
+#define MEDIA_L 5
+#define ADJUST_L 6
+#define LAYERLEADER_L 7
 
 #define R_UNDO      LG(Z)
 #define R_REDO      LG(Y)
