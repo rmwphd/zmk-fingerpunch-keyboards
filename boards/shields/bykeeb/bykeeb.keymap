@@ -91,7 +91,7 @@
         COMBO(reset_l, &bootloader, 0 1 2 3, 100)
         COMBO(reset_right, &bootloader, 6 7 8 9, 100)
         // dude cross-hand combos are awesome! 
- /       // put in cross-hand homerow mod sticky combos???? 
+        // put in cross-hand homerow mod sticky combos???? 
         COMBO(rcmd, &sk RGUI, 6 16, 30)
         COMBO(ropt, &sk RALT, 7 17, 30)
         COMBO(rctrl, &sk RCTRL, 8 18, 30)
