@@ -82,10 +82,10 @@
         COMBO(tab,     &kp TAB,    14 24,    30)
         COMBO(escape,  &kp ESCAPE, 4 5,    30)
         COMBO(scl,     &kp SEMI,    19 29,    30)
-        COMBO(dskr,    &kp R_DSK,  28 29,   10)
-        COMBO(dskl,    &kp L_DSK,  20 21,   10)
+        COMBO(dskr,    &kp R_DSK,  28 29,   30)
+        COMBO(dskl,    &kp L_DSK,  20 21,   30)
         //COMBO(equal, &kp EQUAL, 12 23, 100)
-        COMBO(enter, &kp ENTER, 32 33, 100)
+        COMBO(enter, &kp ENTER, 32 33, 20)
         COMBO(reset_l, &bootloader, 0 1 2 3, 100)
         COMBO(reset_right, &bootloader, 6 7 8 9, 100)
         // dude cross-hand combos are awesome! 
