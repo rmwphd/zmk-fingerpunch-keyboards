@@ -94,12 +94,12 @@
         COMBO(ropt, &sk RALT, 7 17, 30)
         COMBO(rctrl, &sk RCTRL, 8 18, 30)
         //COMBO(rcmdctrl, &sk RGUI &sk RCTRL, 13 22, 30)
-        COMBO(rsftcmd,  &sk RGUI &sk RSFT,  5 15, 30)
+        COMBO(rsftcmd,  &sk RS(RGUI),  5 15, 30)
         COMBO(lcmd, &sk LGUI, 3 13, 30)
         COMBO(lopt, &sk LALT, 2 12, 30)
         COMBO(lctrl, &sk LCTRL, 1 11, 30)
         //COMBO(lcmdctrl, &sk RGUI &sk RCTRL, 13 22, 30)
-        COMBO(lsftcmd,  &sk LGUI &sk LSFT,  4 14, 30)
+        COMBO(lsftcmd,  &sk LS(LGUI),  4 14, 30)
     };
 
     macros {
