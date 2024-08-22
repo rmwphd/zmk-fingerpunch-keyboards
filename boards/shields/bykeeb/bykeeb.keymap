@@ -243,7 +243,7 @@
                 bindings = <
                 &trans &trans &trans &trans &trans                                     &kp CARET &kp AMPS &kp ASTRK &kp GRAVE &trans  
                 &trans  &kp TILDE &kp EXCL &trans &trans                                     &kp EQUAL &kp MINUS &kp UNDER &kp BSLH &kp SEMI
-                &L_DSK  &trans  &trans  &trans  &trans                                   &trans &kp PLUS &kp PIPE &kp SLASH &trans 
+                &kp L_DSK  &trans  &trans  &trans  &trans                                   &trans &kp PLUS &kp PIPE &kp SLASH &trans 
                 &trans &kp DEL_WRD &trans                    &trans &trans &trans   
                 >;
 
@@ -253,7 +253,7 @@
                 bindings = <
                 &kp GRAVE &kp AT    &td_brc_pair &kp RBRC  &trans                   &trans &trans &trans &trans &trans 
                 &kp HASH  &kp DLLR  &td_par_pair &kp RPAR  &ltgt_pair               &trans &trans &kp QMARK &kp SLASH &kp COLON 
-                &kp PRCNT &kp CARET &td_bkt_pair &kp RBKT  &kp TAB                   &trans &trans &trans &trans &R_DSK 
+                &kp PRCNT &kp CARET &td_bkt_pair &kp RBKT  &kp TAB                   &trans &trans &trans &trans &kp R_DSK 
                 &trans    &trans   &trans         &trans &trans &trans 
                 >;
 
