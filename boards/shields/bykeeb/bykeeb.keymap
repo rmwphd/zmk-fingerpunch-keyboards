@@ -95,7 +95,7 @@
         COMBO(dskr,    &kp R_DSK,  28 29,   30)
         COMBO(dskl,    &kp L_DSK,  20 21,   30)
         //COMBO(equal, &kp EQUAL, 12 23, 100)
-        COMBO(enter, &kp ENTER, 14 15, 30)
+        COMBO(enter, &kp ENTER, 12 17, 30)
         COMBO(reset_l, &bootloader, 0 1 2 3, 100)
         COMBO(reset_right, &bootloader, 6 7 8 9, 100)
         // dude cross-hand combos are awesome! 
@@ -254,7 +254,7 @@
                 &trans &trans &trans &trans &trans                                     &kp CARET &kp AMPS &kp ASTRK &kp GRAVE &trans  
                 &trans  &kp TILDE &kp EXCL &trans &trans                                     &kp EQUAL &kp MINUS &kp UNDER &kp BSLH &kp SEMI
                 &kp L_DSK  &trans  &trans  &trans  &trans                                   &trans &kp PLUS &kp PIPE &kp SLASH &trans 
-                &trans &kp DEL_WRD &trans                    &trans &trans &trans   
+                &trans &kp DEL_WRD &trans                    &kp ENTER &trans &trans   
                 >;
 
         };
