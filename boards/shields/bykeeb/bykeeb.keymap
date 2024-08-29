@@ -204,17 +204,17 @@ n
                 bindings = <
                 &kp GRAVE &kp AT    &td_brc_pair &kp RBRC  &trans                   &trans &trans &trans &trans &trans 
                 &kp HASH  &kp DLLR  &td_par_pair &kp RPAR  &ltgt_pair               &trans &trans &kp QMARK &kp SLASH &kp COLON 
-                &kp PRCNT &kp CARET &td_bkt_pair &kp RBKT  &kp TAB                   &trans &trans &trans &trans &kp R_DSK 
-                &trans    &trans   &trans         &trans &trans &trans 
+                &kp PRCNT &kp CARET &td_bkt_pair &kp RBKT  &kp TAB                  &trans &trans &trans &trans &kp R_DSK 
+                &trans    &trans   &trans                                           &trans &trans &trans 
                 >;
         };      
 
         media_layer {
                 bindings = <
-                &kp F1 &kp F2 &kp F3 &kp F4  &kp F5  &kp F6                                                 &trans &trans &trans &trans &trans 
-                &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12                                                &trans &trans &trans &trans &trans 
-                &trans &trans &trans &trans  &trans  &trans                               &kp R_SCRNSHT &kp C_VOL_DN &kp K_MUTE &kp C_VOL_UP  &trans  
-                &trans  &trans  &trans             &kp C_PP  &kp C_PREV  &kp C_NEXT  
+                &kp F1 &kp F2 &kp F3 &kp F4  &kp F5       &kp F6  &kp F7 &kp F8 &kp F9 &kp F10                                                
+                &kp F11 &kp F12 &trans &trans &trans      &trans &trans &trans &trans &trans
+                &trans &trans &trans  &trans  &trans      &kp R_SCRNSHT &kp C_VOL_DN &kp K_MUTE &kp C_VOL_UP  &trans  
+                &trans  &trans  &trans                    &kp C_PP  &kp C_PREV  &kp C_NEXT  
                 >;
         };
 
