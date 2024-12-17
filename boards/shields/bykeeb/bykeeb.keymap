@@ -202,7 +202,7 @@ n
 
         jsym_layer {
                 bindings = <
-                &kp GRAVE &kp AT    &td_brc_pair &kp RBRC  &trans                   &trans &trans &trans &trans &trans 
+                &kp GRAVE &kp AT    &td_brc_pair &kp RBRC  &trans                   &trans &trans &trans &trans &to ADJUST_L 
                 &kp HASH  &kp DLLR  &td_par_pair &kp RPAR  &ltgt_pair               &trans &trans &kp QMARK &kp SLASH &kp COLON 
                 &kp PRCNT &kp CARET &td_bkt_pair &kp RBKT  &kp TAB                  &trans &trans &trans &trans &kp R_DSK 
                 &trans    &trans   &trans                                           &trans &trans &trans 
