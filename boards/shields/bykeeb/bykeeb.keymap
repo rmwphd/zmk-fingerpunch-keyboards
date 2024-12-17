@@ -190,7 +190,7 @@
                 &trans  &trans  &trans                                                   &trans  &trans  &trans  
                 >;
         };
-n
+
         fsym_layer {
                 bindings = <
                 &trans &trans &trans &trans &trans                                     &kp CARET &kp AMPS &kp ASTRK &kp GRAVE &trans  
