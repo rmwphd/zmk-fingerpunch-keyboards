@@ -12,7 +12,7 @@
  #include <dt-bindings/zmk/mouse.h>
  #include <behaviors/mouse_keys.dtsi>
  
- #define QWERTY_L 0
+#define QWERTY_L 0
 #define NUMPAD_L 1
 #define EDIT_L 2
 #define FSYM_L 3
@@ -196,7 +196,7 @@
                 &trans &trans &trans &trans &trans                                     &kp CARET &kp AMPS &kp ASTRK &kp GRAVE &trans  
                 &trans  &kp TILDE &kp EXCL &trans &trans                                     &kp EQUAL &kp MINUS &kp UNDER &kp BSLH &kp SEMI
                 &kp L_DSK  &trans  &trans  &trans  &trans                                   &trans &kp PLUS &kp PIPE &kp SLASH &trans 
-                &trans &kp DEL_WRD &trans                    &kp ENTER &trans &trans   
+                &trans &kp DEL_WRD &trans                    &trans &trans &trans   
                 >;
         };
 
